@@ -23,9 +23,9 @@
     "Dan Abramov <dan.abramov@me.com> (https://github.com/gaearon)",
     "Andrew Clark <acdlite@me.com> (https://github.com/acdlite)"
   ],
-  "main": "lib/redux.js",
-  "unpkg": "dist/redux.js",
-  "module": "es/redux.js",
+  "main": "redux.js",
+  "unpkg": "redux.js",
+  "module": "redux.js",
   "typings": "./index.d.ts",
   "files": [
     "dist",
