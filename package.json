@@ -4,7 +4,7 @@
   "description": "Predictable state container for JavaScript apps",
   "license": "MIT",
   "homepage": "http://redux.js.org",
-  "repository": "github:reduxjs/redux",
+  "repository": "github:kmcmichael-twist/redux",
   "bugs": "https://github.com/reduxjs/redux/issues",
   "keywords": [
     "redux",
