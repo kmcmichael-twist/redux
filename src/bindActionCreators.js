@@ -1,6 +1,12 @@
 function bindActionCreator(actionCreator, dispatch) {
   return function() {
-    return dispatch(actionCreator.apply(this, arguments))
+    /**
+     * In the redux source code, this function returns a function which calls 
+     * dispatch and does not have an explicit return. In order to access 
+     */
+    let appliedAction = actionCreator.apply(this, arguments);
+    dispatch(appliedAction);
+    return appliedAction;
   }
 }
 
